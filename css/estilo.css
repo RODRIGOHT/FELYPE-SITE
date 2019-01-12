@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:"Century Ghotic";
+	line-height:20px;
+	font-size:16px;
+	color:#999
+}
+.topo {
+	background:url(../imagens/barra_topo.png);
+	width:940px;
+	height:150px;
+	border-bottom:10px solid #090;
+	margin:auto;
+}
+.logo {
+	float:left;
+	background:url(../imagens/logotipo.png);
+	width:140px;
+	height:80px;
+	position:relative;
+	margin:40px 0 0 15px;
+}
+.topo .menu ul{
+	position:relative;
+	float:right;
+	margin:-40px 25px 0 100px;
+}
+.topo .menu ul li{
+	display:inline;
+	padding:10px 0 0 60px;
+	float:none;
+}
+.topo .menu ul li a {
+	color:#0CO;
+	text-decoration:none;
+}
+.topo .menu ul li a:hover {
+	text-decoration:underline;
+	color:#0F0;
+}
+.topo .menu ul li .active {
+	color:#F90;
+	font-weight:bold;
+}
+#fundo_inicial {
+	width:940px;
+	height:872px;
+	margin:10px auto 20px auto;
+	background-color:#FFF;
+}
+	
+	.box_img1 {
+		background:url(../imagens/foto1.jpg);
+		width:450px;
+		height:300px;
+		float:left;
+		position:relative;
+		margin:15px;
+	}
+	.text1 {
+		width:420px;
+		height:300px;
+		float:left;
+		position:relative;
+		margin:15px;
+	}
+	.text1 h1 {
+		font-size:24px;
+		color:#000;
+		font-weight:bold;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.text1 p{
+		text-align:justify;
+	}
+	text1 a{
+		text-decoration:none;
+		color:#33C;
+	}
+	text1 a:hover {
+		text-decoration:underline;
+		color:#336;
+	}
+	.regua {
+		width:900px;
+		margin:auto;
+		border:1px solid #ccc;
+		clear:both;
+	}
+    .grupofotos {
+		background:url(../imagens/grupo1.jpg);
+		width:920px;
+		height:250px;
+		margin:auto;
+	}
+	.text2 {
+		width:400px;
+		height:150px;
+		float:left;
+		position:relative;
+		margin:15px;
+	}
+	.text2 h1{
+		font-size:24px;
+		color:#000;
+		font-weight:bold;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.text2 p{
+		text-align:justify;
+	
+	}
+	.text3 {
+		width:400px;
+		height:150px;
+		float:left;
+		position:relative;
+		margin:15px;
+	}.text3 h1{
+		font-size:24px;
+		color:#000;
+		font-weight:bold;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.text3 p{
+		text-align:justify;
+	
+	}
+		
+	.rodape { 
+	width:940px;
+	height:120px;
+	margin:20px auto;
+	clear:both;
+	background:url(../imagens/rodape.jpg);
+	}
+	/*---------------------------------------------------------------------------------------------*/
+	#fundo_inicial2 {
+	width:940px;
+	height:872px;
+	margin:10px auto 20px auto;
+	background-color:#FFF;
+	}
